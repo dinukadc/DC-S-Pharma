@@ -1,0 +1,12 @@
+.ds-amount-details-wrapper {
+  max-width: 25rem; }
+
+.ds-amount-details-text-1 {
+  font-size: small;
+  color: #343a40;
+  text-align: right; }
+
+.ds-amount-details-text-2 {
+  font-size: larger;
+  color: black;
+  text-align: right; }

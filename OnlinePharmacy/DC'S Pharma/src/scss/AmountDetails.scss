@@ -1,0 +1,22 @@
+@import 'variables';
+
+#{$appPreffix} {
+
+  &-amount-details {
+
+    &-wrapper {
+      max-width: 25rem;
+    }
+    &-text-1 {
+      font-size: small;
+      color: $gray-800;
+      text-align: right;
+    }
+    &-text-2 {
+      font-size: larger;
+      color: black;
+      text-align: right;
+    }
+  }
+
+}

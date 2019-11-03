@@ -1,0 +1,29 @@
+@import "variables";
+
+#{$appPreffix} {
+  &-login {
+    padding-top:134px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+  }
+
+  &-signUp {
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+
+  &-button{
+      text-align:right;
+    margin-right: 20px;
+  }
+
+  &-logout {
+    float: right;
+    margin-top: 20px;
+  }
+
+}

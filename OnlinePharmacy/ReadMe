@@ -1,0 +1,53 @@
+Run Services
+---------------------------------
+*Ensure that the port 3002 is free beforee start the service
+
+1.go to 'backend' folder and open the terminal from there
+
+2.run 'npm install' command
+
+*Services can use by using hardcorded array or connecting to the db
+-------------------------------------------------------------------
+
+To start the service which uses harcorded array
+
+=> 3.run 'node app.js' command to start the service which used hardcorded array
+
+To start the service which uses database
+
+=> 3. run 'mongo' command to start the database service in a seperate terminal
+
+   4.copy the db url 
+
+   5.go to backend/dbAPIs file and paste the url for Mongo_DB_Base_URL in line 23.
+
+   6.then run 'node dbAPIs.js' command
+				
+
+
+Run Client Server
+---------------------------------
+
+1.go to the online-fast-food folder and open the terminal,
+
+2.run 'npm install' command
+
+3.then run 'npm start'
+
+4.after the client starts, want to signup as a user or admin.
+
+NOTE => If you run the dbAPI.js as the service,
+		dialog PIN = 1234
+		sampath cvc = 123
+
+	If you run the app.js as the service,
+		dialog => phoneNo:"0771234567",pin:1234,
+		sampath => creditCardNo:1234,cvc:123,holdersName:'ds'
+
+ 
+
+*want to start 2 servers in same machine
+
+*you can use seperate machines dor clients.to do that use the ip of the machine which is running the backend service and paste it in online-fast-food/srs/Constants/APIs.js for API_Base_URL
+
+

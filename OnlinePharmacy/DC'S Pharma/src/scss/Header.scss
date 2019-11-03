@@ -1,0 +1,13 @@
+@import "variables";
+
+#{$appPreffix} {
+  &-logout {
+    float: right;
+    margin-top: 20px;
+
+    span{
+      margin-right:15px;
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+@import 'variables';
+
+#{$appPreffix} {
+
+  &-buttonbar {
+    background-color: $gray-700;
+  }
+
+  &-lastColumn {
+    background-color: $green;
+  }
+}

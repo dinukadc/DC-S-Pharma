@@ -1,0 +1,29 @@
+@import "variables";
+
+#{$appPreffix} {
+  &-container {
+    box-sizing: border-box;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  &-payments {
+    padding: 2rem 2rem;
+
+    h3 {
+      margin-bottom: 3rem;
+    }
+    h5 {
+      text-align: center;
+    }
+  }
+  &-amount-display {
+    text-align: center;
+    button {
+      margin-right: 20px;
+    }
+  }
+}
