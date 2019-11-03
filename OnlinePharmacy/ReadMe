@@ -48,6 +48,6 @@ NOTE => If you run the dbAPI.js as the service,
 
 *want to start 2 servers in same machine
 
-*you can use seperate machines dor clients.to do that use the ip of the machine which is running the backend service and paste it in online-fast-food/srs/Constants/APIs.js for API_Base_URL
+*you can use seperate machines dor clients.to do that use the ip of the machine which is running the backend service and paste it in dc-pharma/srs/Constants/APIs.js for API_Base_URL
 
 
