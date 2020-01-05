@@ -6,10 +6,6 @@ const Prescription = new Schema({
         type:String,
         require:true
     },
-    package:{
-        type:String,
-        require:true
-    },
     price:{
         type:String,
         require:true
